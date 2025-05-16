@@ -273,15 +273,17 @@ mark{
 /* Portfolio Section */
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .body-header {
     height: 60vh;
-    background-position: top;
+    background-position: center top;
+    background-size: cover;
   }
 
   .name {
     margin-top: 100px;
-    font-size: x-large;
+    font-size: 1.8rem;
+    padding: 0 10px;
   }
 
   #about p {
@@ -291,8 +293,8 @@ mark{
 
   .skills-display {
     flex-direction: column;
-    align-items: center;
     width: 100%;
+    align-items: center;
   }
 
   .skill-progress {
@@ -300,21 +302,31 @@ mark{
     margin: 10px 0;
   }
 
+  .Time {
+    width: 100%;
+  }
+
   .Time-Line {
     flex-direction: column;
     width: 100%;
-    margin-bottom: 50px;
+    left: 0 !important;
+    margin-bottom: 40px;
   }
 
-  .post {
+  .Time-Line .post {
     width: 90%;
     margin: auto;
   }
 
   .post .content {
+    position: static;
     margin: 0;
     transform: none;
-    position: static;
+    font-size: 0.95rem;
+  }
+
+  .Divider {
+    display: none;
   }
 
   #port {
@@ -325,6 +337,7 @@ mark{
   .port-image {
     width: 100%;
     max-width: 100%;
+    margin: 10px 0;
   }
 
   #contact-form-container,
@@ -335,10 +348,9 @@ mark{
   }
 
   #contact-form button[type="submit"] {
-    margin-left: 0;
+    margin: 20px auto;
     display: block;
     width: 100%;
   }
 }
-
 
