@@ -10,7 +10,7 @@ body {
 .body-header{
 height:90vh;    
 background-image:url("image/@Dev.gusta.png");
-background-position: center;
+background-position: top center;
 background-size:cover;
 position: relative;/*to stick the my-imgae over the background image*/
 }
