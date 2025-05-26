@@ -74,7 +74,7 @@ section:nth-child(2n + 1) {
 }
 
 .section-heading span{
-    color:white;
+    color: white;
 }
 
 
@@ -338,7 +338,7 @@ mark{
 #contact {
     height:100%;
     width:100%;
-    background:#1f2020;
+    background:#1f2020
 }
 #contact span{
     color:white;
@@ -402,3 +402,6 @@ mark{
     line-height: 25px;
     font-style: italic;
 }
+
+
+
